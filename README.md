@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/header.svg?v=3" width="100%" alt="Farrukh Yuldashev — desktop apps, developer tools, local-first AI" />
+<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/header.svg?v=4" width="100%" alt="Farrukh Yuldashev — desktop apps, developer tools, local-first AI" />
 
 
 <br>
@@ -122,4 +122,4 @@ separate Node process so a crash in the agent never takes the window with it.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/footer.svg?v=3" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/footer.svg?v=4" width="100%" alt="" />

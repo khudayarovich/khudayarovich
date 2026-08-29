@@ -9,7 +9,7 @@
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity="0.7"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="rounded"><rect width="1200" height="320" rx="20" ry="20"/></clipPath>
+    <clipPath id="rounded"><rect width="1200" height="320" rx="42" ry="42"/></clipPath>
 
   <clipPath id="type0"><rect x="80" y="138" height="45" width="0">
     <animate attributeName="width" dur="19.80s" repeatCount="indefinite"
