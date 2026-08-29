@@ -1,51 +1,53 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f97316,100:ea580c&height=190&section=header&text=Farrukh%20Yuldashev&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Developer%20%C2%B7%20Tashkent,%20Uzbekistan&descAlignY=56&descSize=16" width="100%" alt="" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=760&height=45&lines=I+build+desktop+apps+and+developer+tools;AI+tooling+that+runs+on+your+own+machine;TypeScript+%C2%B7+Electron+%C2%B7+Node.js+%C2%B7+React;Currently+building+OnFlip" alt="" />
+<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/header.svg" width="100%" alt="Farrukh Yuldashev — desktop apps, developer tools, local-first AI" />
 
 <br>
 
-<a href="https://github.com/khudayarovich?tab=repositories"><img src="https://img.shields.io/badge/Projects-f97316?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
-<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee" /></a>
-<img src="https://komarev.com/ghpvc/?username=khudayarovich&label=Profile+views&color=f97316&style=for-the-badge" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=1000&color=8B8B8B&center=true&vCenter=true&width=720&height=42&lines=I+build+software+that+runs+on+your+own+machine;desktop+apps+%C2%B7+developer+tools+%C2%B7+local-first+AI;TypeScript+%C2%B7+Electron+%C2%B7+Node.js+%C2%B7+React" alt="" />
+
+<br>
+
+<a href="https://github.com/khudayarovich?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=0d0d0d" alt="Projects" /></a>
+<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/BUY%20ME%20A%20COFFEE-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=0d0d0d" alt="Buy me a coffee" /></a>
+<img src="https://komarev.com/ghpvc/?username=khudayarovich&label=VIEWS&color=0d0d0d&style=for-the-badge" alt="" />
 
 </div>
 
 <br>
 
-## About
+## ◗ About
 
 I build software that runs on the machine in front of you — desktop apps,
 developer tools, and lately agents that do real work locally instead of in
 somebody else's cloud.
 
-- 🖥️ Mostly **TypeScript**, **Electron**, **Node.js** and **React**
-- 🤖 Interested in AI tooling that stays useful when the network is not
-- 🧰 I like software that explains itself: readable logs, honest errors
-- 📍 Tashkent, Uzbekistan
+I like programs that explain themselves: readable logs, honest errors, and a
+build you can reason about at three in the morning.
 
 <br>
 
-## Currently building
+## ◗ Currently building
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="54%" valign="top">
 
-### [OnFlip](https://github.com/khudayarovich/onflip-agent)
+### OnFlip
 
 A desktop agent for coding and everyday tasks, powered by your own ChatGPT
-account — no API key and nothing billed per token.
+account — no API key, nothing billed per token.
 
-It reads and edits files, runs commands, browses the web and produces
-documents, behind an approval layer you control. Windows and macOS.
+Reads and edits files, runs commands, browses the web and produces documents,
+behind an approval layer you control. Windows and macOS.
 
-<a href="https://github.com/khudayarovich/onflip-agent/releases/latest"><img src="https://img.shields.io/github/v/release/khudayarovich/onflip-agent?style=for-the-badge&label=download&color=f97316" alt="" /></a>
-<a href="https://github.com/khudayarovich/onflip-agent"><img src="https://img.shields.io/github/stars/khudayarovich/onflip-agent?style=for-the-badge&color=f97316" alt="" /></a>
+<br>
+
+<a href="https://github.com/khudayarovich/onflip-agent/releases/latest"><img src="https://img.shields.io/github/v/release/khudayarovich/onflip-agent?style=for-the-badge&label=DOWNLOAD&labelColor=0d0d0d&color=e6e6e6" alt="" /></a>
+<a href="https://github.com/khudayarovich/onflip-agent/stargazers"><img src="https://img.shields.io/github/stars/khudayarovich/onflip-agent?style=for-the-badge&labelColor=0d0d0d&color=e6e6e6" alt="" /></a>
 
 </td>
-<td width="45%" valign="top">
+<td width="46%" valign="top">
 
 <a href="https://github.com/khudayarovich/onflip-agent"><img src="https://raw.githubusercontent.com/khudayarovich/onflip-agent/main/.github/assets/screenshot.png" alt="OnFlip" /></a>
 
@@ -53,42 +55,72 @@ documents, behind an approval layer you control. Windows and macOS.
 </tr>
 </table>
 
+<details>
+<summary><b>◗ What is inside it</b></summary>
+
 <br>
 
-## Tools I reach for
+|  |  |
+| --- | --- |
+| **Agent loop** | A text tool protocol over a chat session — no function-calling API |
+| **Transport** | Playwright driving a real ChatGPT session, with cooldowns and stall recovery |
+| **Approvals** | Five modes, from read-only to unrestricted, with per-command rules |
+| **Shell & browser** | A real terminal and a browser you can watch *and* click into |
+| **Sessions** | Plain JSON on disk, with file snapshots and one-step undo |
+
+Built with TypeScript, Electron, React and Playwright. The engine runs as a
+separate Node process so a crash in the agent never takes the window with it.
+
+</details>
+
+<br>
+
+## ◗ Tools I reach for
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,electron,html,css,git,github,vscode&theme=dark" alt="" />
-<br><br>
-<img src="https://skillicons.dev/icons?i=python,cs,dotnet,mysql,postgres,docker,linux,figma&theme=dark" alt="" />
+<img src="https://img.shields.io/badge/TypeScript-0d0d0d?style=for-the-badge&logo=typescript&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Node.js-0d0d0d?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/React-0d0d0d?style=for-the-badge&logo=react&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Electron-0d0d0d?style=for-the-badge&logo=electron&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Playwright-0d0d0d?style=for-the-badge&logo=playwright&logoColor=white" alt="" />
+<br>
+<img src="https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker&logoColor=white" alt="" />
+<img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=white" alt="" />
 
 </div>
 
 <br>
 
-## Contribution graph
+## ◗ Contribution graph
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/output/snake.svg" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khudayarovich/khudayarovich/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khudayarovich/khudayarovich/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/output/snake.svg" alt="" />
+</picture>
 
 </div>
 
 <br>
 
-## Get in touch
+## ◗ Get in touch
 
 <div align="center">
 
-<a href="https://github.com/khudayarovich"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="" /></a>
-<a href="https://github.com/khudayarovich/onflip-agent/issues"><img src="https://img.shields.io/badge/Issues%20%26%20ideas-2b3137?style=for-the-badge&logo=github&logoColor=white" alt="" /></a>
-<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/Support%20my%20work-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="" /></a>
+<a href="https://github.com/khudayarovich"><img src="https://img.shields.io/badge/GitHub-0d0d0d?style=for-the-badge&logo=github&logoColor=white" alt="" /></a>
+<a href="https://github.com/khudayarovich/onflip-agent/issues"><img src="https://img.shields.io/badge/Issues%20%26%20ideas-0d0d0d?style=for-the-badge&logo=github&logoColor=white" alt="" /></a>
+<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/Support%20my%20work-0d0d0d?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="" /></a>
 
 <br><br>
 
 <i>If something I built saved you time, a star is the cheapest way to say so.</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ea580c,100:f97316&height=110&section=footer" width="100%" alt="" />
-
 </div>
+
+<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/footer.svg" width="100%" alt="" />
