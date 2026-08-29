@@ -2,14 +2,12 @@
 
 <img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/header.svg" width="100%" alt="Farrukh Yuldashev — desktop apps, developer tools, local-first AI" />
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=1000&color=8B8B8B&center=true&vCenter=true&width=720&height=42&lines=I+build+software+that+runs+on+your+own+machine;desktop+apps+%C2%B7+developer+tools+%C2%B7+local-first+AI;TypeScript+%C2%B7+Electron+%C2%B7+Node.js+%C2%B7+React" alt="" />
 
 <br>
 
 <a href="https://github.com/khudayarovich?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=0d0d0d" alt="Projects" /></a>
-<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/BUY%20ME%20A%20COFFEE-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=0d0d0d" alt="Buy me a coffee" /></a>
+<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/BUY%20ME%20A%20COFFEE-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee" /></a>
+<a href="https://github.com/sponsors/khudayarovich"><img src="https://img.shields.io/badge/SPONSOR-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" /></a>
 <img src="https://komarev.com/ghpvc/?username=khudayarovich&label=VIEWS&color=0d0d0d&style=for-the-badge" alt="" />
 
 </div>
@@ -115,7 +113,8 @@ separate Node process so a crash in the agent never takes the window with it.
 
 <a href="https://github.com/khudayarovich"><img src="https://img.shields.io/badge/GitHub-0d0d0d?style=for-the-badge&logo=github&logoColor=white" alt="" /></a>
 <a href="https://github.com/khudayarovich/onflip-agent/issues"><img src="https://img.shields.io/badge/Issues%20%26%20ideas-0d0d0d?style=for-the-badge&logo=github&logoColor=white" alt="" /></a>
-<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/Support%20my%20work-0d0d0d?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="" /></a>
+<a href="https://buymeacoffee.com/khudayarovich"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="" /></a>
+<a href="https://github.com/sponsors/khudayarovich"><img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="" /></a>
 
 <br><br>
 

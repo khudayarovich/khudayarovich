@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" fill="none" role="img" aria-label="">
   <defs>
+    <clipPath id="frounded"><rect width="1200" height="130" rx="20" ry="20"/></clipPath>
     <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1a1a1a"/><stop offset="100%" stop-color="#000000"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="130" fill="url(#fbg)"/>
+  <g clip-path="url(#frounded)">
+  <rect width="1200" height="130" rx="20" ry="20" fill="url(#fbg)"/>
   <rect width="1200" height="1" fill="#2a2a2a"/>
   <circle cx="227.3" cy="22.5" r="1.98" fill="#fff" opacity="0.48">
     <animateTransform attributeName="transform" type="translate" dur="19.5s" begin="-1.31s"
@@ -184,6 +186,5 @@
               M0 86 C 200 98, 400 74, 600 86 S 1000 98, 1200 86;
               M0 86 C 200 74, 400 98, 600 86 S 1000 74, 1200 86"/>
   </path>
-  <text x="600" y="112" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif"
-        font-size="12.5" fill="#6e6e6e" letter-spacing="4">BUILT IN TASHKENT</text>
+</g>
 </svg>
