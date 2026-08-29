@@ -77,17 +77,9 @@ separate Node process so a crash in the agent never takes the window with it.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/TypeScript-0d0d0d?style=for-the-badge&logo=typescript&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Node.js-0d0d0d?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/React-0d0d0d?style=for-the-badge&logo=react&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Electron-0d0d0d?style=for-the-badge&logo=electron&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Playwright-0d0d0d?style=for-the-badge&logo=playwright&logoColor=white" alt="" />
-<br>
-<img src="https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=white" alt="" />
+<img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,electron,html,css,git,github,vscode&theme=dark" alt="" />
+<br><br>
+<img src="https://skillicons.dev/icons?i=python,cs,dotnet,mysql,postgres,docker,linux,figma&theme=dark" alt="" />
 
 </div>
 
