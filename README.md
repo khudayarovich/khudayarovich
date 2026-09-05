@@ -79,7 +79,7 @@ separate Node process so a crash in the agent never takes the window with it.
 
 | Project | Latest release | Published | Download |
 | --- | --- | --- | --- |
-| [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.8.4](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.8.4) | 2 days ago | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.8.4/OnFlip-Setup-0.8.4.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.8.4/OnFlip-0.8.4-mac-arm64.dmg) |
+| [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.8.5](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.8.5) | today | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.8.5/OnFlip-Setup-0.8.5.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.8.5/OnFlip-0.8.5-mac-arm64.dmg) |
 
 <!-- RELEASES:END -->
 
