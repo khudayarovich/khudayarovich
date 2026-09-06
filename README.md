@@ -33,8 +33,9 @@ build you can reason about at three in the morning.
 
 ### OnFlip
 
-A desktop agent for coding and everyday tasks, powered by your own ChatGPT
-account — no API key, nothing billed per token.
+A desktop agent for coding and everyday tasks, powered by your own ChatGPT or
+DeepSeek account — no API key, nothing billed per token. On ChatGPT's free
+plan or on DeepSeek, no bill at all.
 
 Reads and edits files, runs commands, browses the web and produces documents,
 behind an approval layer you control. Windows and macOS.
@@ -61,7 +62,8 @@ behind an approval layer you control. Windows and macOS.
 |  |  |
 | --- | --- |
 | **Agent loop** | A text tool protocol over a chat session — no function-calling API |
-| **Transport** | Playwright driving a real ChatGPT session, with cooldowns and stall recovery |
+| **Services** | ChatGPT or DeepSeek, switched from the account menu — each keeps its own sign-in and chats |
+| **Transport** | Playwright driving a real chat session, with cooldowns and stall recovery |
 | **Approvals** | Five modes, from read-only to unrestricted, with per-command rules |
 | **Shell & browser** | A real terminal and a browser you can watch *and* click into |
 | **Sessions** | Plain JSON on disk, with file snapshots and one-step undo |
