@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/header.svg?v=20260830a" width="100%" alt="Farrukh Yuldashev — desktop apps, developer tools, local-first AI" />
+<img src="https://raw.githubusercontent.com/khudayarovich/khudayarovich/main/assets/header.svg?v=20260908a" width="100%" alt="Farrukh Yuldashev — desktop apps, developer tools, local-first AI" />
 
 
 <br>
