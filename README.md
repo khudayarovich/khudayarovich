@@ -83,7 +83,7 @@ separate Node process so a crash in the agent never takes the window with it.
 | --- | --- | --- | --- |
 | [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.10.63](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.10.63) | today | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.63/OnFlip-Setup-0.10.63.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.63/OnFlip-0.10.63-mac-arm64.dmg) |
 | [jev-voice-agent](https://github.com/khudayarovich/jev-voice-agent) | [JVA 0.1.1 — realtime voice control for macOS](https://github.com/khudayarovich/jev-voice-agent/releases/tag/v0.1.1) | today | [macOS](https://github.com/khudayarovich/jev-voice-agent/releases/download/v0.1.1/JevVoiceAgent-0.1.1-arm64.dmg) |
-| [claudex-bar](https://github.com/khudayarovich/claudex-bar) | [ClaudexBar 0.1.1](https://github.com/khudayarovich/claudex-bar/releases/tag/v0.1.1) | today | — |
+| [claudex-bar](https://github.com/khudayarovich/claudex-bar) | [ClaudexBar 0.1.1](https://github.com/khudayarovich/claudex-bar/releases/tag/v0.1.1) | yesterday | — |
 
 <!-- RELEASES:END -->
 
