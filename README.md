@@ -81,9 +81,9 @@ separate Node process so a crash in the agent never takes the window with it.
 
 | Project | Latest release | Published | Download |
 | --- | --- | --- | --- |
-| [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.10.67](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.10.67) | yesterday | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.67/OnFlip-Setup-0.10.67.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.67/OnFlip-0.10.67-mac-arm64.dmg) |
+| [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.10.67](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.10.67) | 2 days ago | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.67/OnFlip-Setup-0.10.67.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.67/OnFlip-0.10.67-mac-arm64.dmg) |
 | [jev-voice-agent](https://github.com/khudayarovich/jev-voice-agent) | [JVA 0.1.4 — works out what it has no command for](https://github.com/khudayarovich/jev-voice-agent/releases/tag/v0.1.4) | 2 days ago | [macOS](https://github.com/khudayarovich/jev-voice-agent/releases/download/v0.1.4/JevVoiceAgent-0.1.4-arm64.dmg) |
-| [claudex-bar](https://github.com/khudayarovich/claudex-bar) | [ClaudexBar 0.1.1](https://github.com/khudayarovich/claudex-bar/releases/tag/v0.1.1) | 4 days ago | — |
+| [claudex-bar](https://github.com/khudayarovich/claudex-bar) | [ClaudexBar 0.1.1](https://github.com/khudayarovich/claudex-bar/releases/tag/v0.1.1) | 5 days ago | — |
 
 <!-- RELEASES:END -->
 
