@@ -33,9 +33,10 @@ build you can reason about at three in the morning.
 
 ### OnFlip
 
-A desktop agent for coding and everyday tasks, powered by your own ChatGPT or
-DeepSeek account — no API key, nothing billed per token. On ChatGPT's free
-plan or on DeepSeek, no bill at all.
+A desktop agent for coding and everyday tasks, powered by a chat account you
+already have — ChatGPT, DeepSeek, Qwen, or Google's Gemini API. Nothing billed
+per token: on ChatGPT's free plan, DeepSeek, Qwen or Gemini's free API tier,
+no bill at all.
 
 Reads and edits files, runs commands, browses the web and produces documents,
 behind an approval layer you control. Windows and macOS.
@@ -62,8 +63,8 @@ behind an approval layer you control. Windows and macOS.
 |  |  |
 | --- | --- |
 | **Agent loop** | A text tool protocol over a chat session — no function-calling API |
-| **Services** | ChatGPT or DeepSeek, switched from the account menu — each keeps its own sign-in and chats |
-| **Transport** | Playwright driving a real chat session, with cooldowns and stall recovery |
+| **Services** | ChatGPT, DeepSeek, Qwen or Gemini API, switched from the account menu — each keeps its own sign-in and chats |
+| **Transport** | Playwright driving a real chat session (Gemini over plain HTTPS with your free key), with cooldowns and stall recovery |
 | **Approvals** | Five modes, from read-only to unrestricted, with per-command rules |
 | **Shell & browser** | A real terminal and a browser you can watch *and* click into |
 | **Sessions** | Plain JSON on disk, with file snapshots and one-step undo |
@@ -81,7 +82,7 @@ separate Node process so a crash in the agent never takes the window with it.
 
 | Project | Latest release | Published | Download |
 | --- | --- | --- | --- |
-| [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.10.77](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.10.77) | 10 days ago | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.77/OnFlip-Setup-0.10.77.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.77/OnFlip-0.10.77-mac-arm64.dmg) |
+| [onflip-agent](https://github.com/khudayarovich/onflip-agent) | [OnFlip Desktop 0.10.78](https://github.com/khudayarovich/onflip-agent/releases/tag/desktop-v0.10.78) | today | [Windows](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.78/OnFlip-Setup-0.10.78.exe) · [macOS](https://github.com/khudayarovich/onflip-agent/releases/download/desktop-v0.10.78/OnFlip-0.10.78-mac-arm64.dmg) |
 | [jev-voice-agent](https://github.com/khudayarovich/jev-voice-agent) | [JVA 0.1.4 — works out what it has no command for](https://github.com/khudayarovich/jev-voice-agent/releases/tag/v0.1.4) | 18 days ago | [macOS](https://github.com/khudayarovich/jev-voice-agent/releases/download/v0.1.4/JevVoiceAgent-0.1.4-arm64.dmg) |
 | [claudex-bar](https://github.com/khudayarovich/claudex-bar) | [ClaudexBar 0.1.1](https://github.com/khudayarovich/claudex-bar/releases/tag/v0.1.1) | 20 days ago | — |
 
